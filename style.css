@@ -1,0 +1,37 @@
+body {
+  background-color: lightblue;
+}
+
+p {
+  color: blue;
+  background-color: blanchedalmond;
+}
+
+.divine {
+  height: 50px;
+  width: 25px;
+  background-color: darkgoldenrod;
+}
+
+@media screen and (max-width: 350px) {
+  .divine {
+    height: 100px;
+    width: 70px;
+    background-color: rgb(4, 63, 44);
+  }
+}
+
+.dive {
+  height: 150px;
+  width: 100%;
+  background-color: rgb(4, 63, 44);
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 400px) {
+  .dive {
+    height: 150px;
+    width: 100%;
+    background-color: rgb(153, 181, 108);
+  }
+}
